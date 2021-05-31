@@ -4,8 +4,8 @@
 
 /* below two will fetch from vars file*/
 
-variable "access_key" {}
-variable "access_secret" {}
+#variable "access_key" {}
+#variable "access_secret" {}
 variable "region" {
   default = "us-east-2"
 }

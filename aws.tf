@@ -10,8 +10,8 @@ resource "aws_instance" "DEMO" {
 }*/
 /*#################### SSH To the Instance ######################*/
 provider "aws" {
-  access_key = var.access_key
-  secret_key = var.access_secret
+#  access_key = var.access_key
+#  secret_key = var.access_secret
   region     = "us-east-2"
 }
 
